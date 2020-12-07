@@ -66,5 +66,11 @@ namespace JWTSolution.Controllers
 
             return Ok(new { jwtToken, sub, claimTypeVal });
         }
+
+        [HttpGet("userInfo")]
+        public IActionResult UserInfo()
+        {
+            return Ok($"Service2:{DateTime.Now.ToString()}");
+        }
     }
 }
