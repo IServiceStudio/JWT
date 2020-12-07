@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -59,6 +60,9 @@ namespace JWTSolution.Controllers
             var claimTypeVal = (from item in claims
                                 where item.Type == ClaimTypes.Name
                                 select item.Value).ToList();
+
+            //4
+            var claims4 = HttpContext.AuthenticateAsync().Result.Principal.Claims;
 
             return Ok(new { jwtToken, sub, claimTypeVal });
         }
