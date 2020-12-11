@@ -1,4 +1,4 @@
-﻿namespace HS256.Model
+﻿namespace RS256.Model
 {
     public class JWTTokenOptions
     {
