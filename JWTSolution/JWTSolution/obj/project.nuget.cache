@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "va3i86OXiiNS18R+8FCQvGoFItuKzY6Xua9X27zIXaCEtechksNXCFSezaiiWvRreqk041ptIQ0FTL6fpeBasA==",
+  "dgSpecHash": "r/+bVpUrFEG9LQGCevCa7lryIhOwrKbTCzYKE4lNZMfYk+Den1OcMXLctOHaoIpaBvV/0YR9BY1Q9qOffe20Xw==",
   "success": true,
-  "projectFilePath": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTSolution.csproj",
+  "projectFilePath": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LvFeng\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

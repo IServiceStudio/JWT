@@ -6330,9 +6330,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTSolution.csproj",
-      "projectName": "JWTSolution",
-      "projectPath": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTSolution.csproj",
+      "projectUniqueName": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTDemo.csproj",
+      "projectName": "JWTDemo",
+      "projectPath": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\JWTDemo.csproj",
       "packagesPath": "C:\\Users\\LvFeng\\.nuget\\packages\\",
       "outputPath": "D:\\个人练习\\2020\\Study\\JWT\\JWTSolution\\JWTSolution\\obj\\",
       "projectStyle": "PackageReference",
