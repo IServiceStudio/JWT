@@ -10,7 +10,6 @@ using RS256.Model;
 using RS256.Service;
 using System.IO;
 using System.Security.Cryptography;
-using System.Text;
 
 namespace RS256
 {
