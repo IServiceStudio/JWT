@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTSolution", "JWTSolution\JWTSolution.csproj", "{4E669F15-EA8A-458A-838C-0A2C1F388452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS256", "HS256\HS256.csproj", "{224C0E47-057C-413D-84E4-5E4EDE2E1728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RS256", "RS256\RS256.csproj", "{28E2CE8A-6985-4FD5-BA83-3FA2E3F93268}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4E669F15-EA8A-458A-838C-0A2C1F388452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E669F15-EA8A-458A-838C-0A2C1F388452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E669F15-EA8A-458A-838C-0A2C1F388452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224C0E47-057C-413D-84E4-5E4EDE2E1728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224C0E47-057C-413D-84E4-5E4EDE2E1728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224C0E47-057C-413D-84E4-5E4EDE2E1728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224C0E47-057C-413D-84E4-5E4EDE2E1728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E2CE8A-6985-4FD5-BA83-3FA2E3F93268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E2CE8A-6985-4FD5-BA83-3FA2E3F93268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E2CE8A-6985-4FD5-BA83-3FA2E3F93268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E2CE8A-6985-4FD5-BA83-3FA2E3F93268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
