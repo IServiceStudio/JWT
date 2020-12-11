@@ -70,7 +70,7 @@ namespace JWTSolution.Controllers
         [HttpGet("userInfo")]
         public IActionResult UserInfo()
         {
-            return Ok($"Service2:{DateTime.Now.ToString()}");
+            return Ok($"Service2:{DateTime.Now}");
         }
     }
 }

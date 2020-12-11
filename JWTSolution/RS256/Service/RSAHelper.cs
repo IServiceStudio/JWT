@@ -35,21 +35,19 @@ namespace RS256.Service
         public static RSAParameters GenerateAndSaveKey(string filePath, bool withPrivate = true)
         {
             RSAParameters publicKey, privateKey;
-            using (var rsa = new RSACryptoServiceProvider(DWKEYSIZE))
+            using var rsa = new RSACryptoServiceProvider(DWKEYSIZE);
+            try
             {
-                try
-                {
-                    privateKey = rsa.ExportParameters(true);
-                    publicKey = rsa.ExportParameters(false); 
-                }
-                finally
-                {
-                    rsa.PersistKeyInCsp = false;
-                }
-                File.WriteAllText(Path.Combine(filePath, "key.json"), JsonConvert.SerializeObject(privateKey));
-                File.WriteAllText(Path.Combine(filePath, "key.public.json"), JsonConvert.SerializeObject(publicKey));
-                return withPrivate ? privateKey : publicKey;
+                privateKey = rsa.ExportParameters(true);
+                publicKey = rsa.ExportParameters(false);
             }
+            finally
+            {
+                rsa.PersistKeyInCsp = false;
+            }
+            File.WriteAllText(Path.Combine(filePath, "key.json"), JsonConvert.SerializeObject(privateKey));
+            File.WriteAllText(Path.Combine(filePath, "key.public.json"), JsonConvert.SerializeObject(publicKey));
+            return withPrivate ? privateKey : publicKey;
         }
     }
 }
